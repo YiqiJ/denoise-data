@@ -1,1 +1,3 @@
-# denoise-data
+# Denoise Corrupted Images
+
+The dataset noisy.npy contains 5421 noisy images of hand-written 5’s, each given as an array of 28 × 28 pixels whose grayscale values is an integer in {0,...,255}, with lower values corresponding to darker shades. The images are corrupted by additive noise that is independent of the original data and i.i.d. across images. Given that the noise is pairwise stationary, i.e., the joint distribution of the noise random variable for any pixels (i,j) and (i',j') only depends on graph distance, we denoise the dataset aiming to decrease the mean squared error (MSE) between the denoised data and the original data. 
